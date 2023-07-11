@@ -1,0 +1,1 @@
+{"version":3,"file":"mensaje.js","sourceRoot":"","sources":["../../../src/model/mensaje.ts"],"names":[],"mappings":";;;;;AAAA,0DAAkC;AAElC,MAAM,OAAO,GAAG,IAAI,eAAK,CAAC;AAE1B,OAAO,CAAC,MAAM,CAAC;IACX,SAAS,EAAE,SAAS;IACpB,UAAU,EAAE,IAAI;IAChB,QAAQ,EAAE;QACN,IAAI;QACJ,MAAM;QACN,SAAS;KACZ;IACD,UAAU,EAAE,IAAI;CACnB,CAAC,CAAC;AAEH,kBAAe,OAAO,CAAC"}
