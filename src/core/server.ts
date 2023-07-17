@@ -31,7 +31,9 @@ class App {
 
     private middlewares(): void {
         //cors
-        this.app.use(cors());
+        this.app.use(cors({
+            origin: true,
+        }));
         //lectura y parseo del body
         this.app.use(express.json());
         //directorio publico
