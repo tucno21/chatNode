@@ -21,6 +21,10 @@ const db = promise_1.default.createConnection({
     database: database,
     port: port
 });
+db.then((connection) => {
+    console.log('Conectado a la base de datos');
+    return connection;
+});
 db.catch((err) => {
     console.log(err);
     throw new Error('Error al conectar con la base de datos');

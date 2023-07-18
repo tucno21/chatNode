@@ -19,6 +19,11 @@ const db = mysql.createConnection({
     port: port
 });
 
+db.then((connection: any) => {
+    console.log('Conectado a la base de datos');
+    return connection;
+});
+
 db.catch((err: any) => {
     console.log(err);
     throw new Error('Error al conectar con la base de datos');
