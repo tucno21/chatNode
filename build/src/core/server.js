@@ -25,7 +25,9 @@ class App {
     }
     middlewares() {
         //cors
-        this.app.use((0, cors_1.default)());
+        this.app.use((0, cors_1.default)({
+            origin: true,
+        }));
         //lectura y parseo del body
         this.app.use(express_1.default.json());
         //directorio publico
