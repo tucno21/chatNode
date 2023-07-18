@@ -14,6 +14,7 @@ const password = process.env.DB_PASSWORD || 'root';
 const database = process.env.DB_DATABASE || 'cronos';
 const portData = process.env.DB_PORT || 3306;
 const port = parseInt(portData.toString());
+console.log(host, user, password, database, port);
 const db = promise_1.default.createConnection({
     host: host,
     user: user,
